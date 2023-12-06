@@ -65,7 +65,6 @@ export default function Contact() {
           placeholder="Your message"
           required
           maxLength={5000}
-          
         />
         <SubmitBtn />
       </form>
