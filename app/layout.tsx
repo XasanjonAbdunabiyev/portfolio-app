@@ -11,12 +11,13 @@ import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Xasanjon | Personal Portfolio",
+  title: "Xasanjon | Portfolio",
   description: "Xasanjon is a fronetend developer with 1 years of experience.",
   icons: {
     icon: "/portfolio-images/favicon.png"
   }
 };
+
 
 export default function RootLayout({
   children,
