@@ -6,12 +6,16 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+export const metadata: Metadata = {
+  title: "Xasanjon | Personal Portfolio",
+  description: "Xasanjon is a fronetend developer with 1 years of experience.",
+  icons: {
+    icon: "/portfolio-images/favicon.png"
+  }
 };
 
 export default function RootLayout({
